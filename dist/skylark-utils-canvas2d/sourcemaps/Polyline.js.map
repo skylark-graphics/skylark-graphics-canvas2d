@@ -1,0 +1,1 @@
+{"version":3,"sources":["Polyline.js"],"names":["define","canvas2d","fabric","Polyline"],"mappings":";;;;;;;AAAAA,QACI,aACA,uBACD,SAASC,EAASC,GACjB,MAAOD,GAASE,SAAWD,EAAOC","file":"../Polyline.js","sourcesContent":["define([\r\n    \"./canvas2d\",\r\n    \"./primitives/fabric\"\r\n], function(canvas2d,fabric) {\r\n    return canvas2d.Polyline = fabric.Polyline;\r\n});"]}

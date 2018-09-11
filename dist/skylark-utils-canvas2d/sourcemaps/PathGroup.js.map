@@ -1,0 +1,1 @@
+{"version":3,"sources":["PathGroup.js"],"names":["define","canvas2d","fabric","PathGroup"],"mappings":";;;;;;;AAAAA,QACI,aACA,uBACD,SAASC,EAASC,GACjB,MAAOD,GAASE,UAAYD,EAAOC","file":"../PathGroup.js","sourcesContent":["define([\r\n    \"./canvas2d\",\r\n    \"./primitives/fabric\"\r\n], function(canvas2d,fabric) {\r\n    return canvas2d.PathGroup = fabric.PathGroup;\r\n});"]}

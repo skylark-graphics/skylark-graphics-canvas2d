@@ -1,0 +1,1 @@
+{"version":3,"sources":["Image.js"],"names":["define","canvas2d","fabric","Image"],"mappings":";;;;;;;AAAAA,QACI,aACA,uBACD,SAASC,EAASC,GACjB,MAAOD,GAASE,MAAQD,EAAOC","file":"../Image.js","sourcesContent":["define([\r\n    \"./canvas2d\",\r\n    \"./primitives/fabric\"\r\n], function(canvas2d,fabric) {\r\n    return canvas2d.Image = fabric.Image;\r\n});"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["Circle.js"],"names":["define","canvas2d","fabric","Circle"],"mappings":";;;;;;;AAAAA,QACI,aACA,uBACD,SAASC,EAASC,GACjB,MAAOD,GAASE,OAASD,EAAOC","file":"../Circle.js","sourcesContent":["define([\r\n    \"./canvas2d\",\r\n    \"./primitives/fabric\"\r\n], function(canvas2d,fabric) {\r\n    return canvas2d.Circle = fabric.Circle;\r\n});"]}
