@@ -28933,6 +28933,12 @@ define('skylark-utils-canvas2d/Triangle',[
 ], function(canvas2d,fabric) {
     return canvas2d.Triangle = fabric.Triangle;
 });
+define('skylark-utils-canvas2d/util',[
+    "./canvas2d",
+    "./primitives/fabric"
+], function(canvas2d,fabric) {
+    return canvas2d.util = fabric.util;
+});
 define('skylark-utils-canvas2d/main',[
     "./canvas2d",
     "./Canvas",
@@ -28948,7 +28954,8 @@ define('skylark-utils-canvas2d/main',[
     "./Polyline",
     "./Rect",
     "./Text",
-    "./Triangle"
+    "./Triangle",
+    "./util"
 ], function(canvas2d) {
     return canvas2d;
 });

@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./canvas2d","./Canvas","./Circle","./Color","./Ellipse","./Group","./Image","./Line","./Path","./Point","./Polygon","./Polyline","./Rect","./Text","./Triangle"],function(e){return e});
+define(["./canvas2d","./Canvas","./Circle","./Color","./Ellipse","./Group","./Image","./Line","./Path","./Point","./Polygon","./Polyline","./Rect","./Text","./Triangle","./util"],function(e){return e});
 //# sourceMappingURL=sourcemaps/main.js.map

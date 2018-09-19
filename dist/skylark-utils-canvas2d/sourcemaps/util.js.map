@@ -1,0 +1,1 @@
+{"version":3,"sources":["util.js"],"names":["define","canvas2d","fabric","util"],"mappings":";;;;;;;AAAAA,QACI,aACA,uBACD,SAASC,EAASC,GACjB,MAAOD,GAASE,KAAOD,EAAOC","file":"../util.js","sourcesContent":["define([\r\n    \"./canvas2d\",\r\n    \"./primitives/fabric\"\r\n], function(canvas2d,fabric) {\r\n    return canvas2d.util = fabric.util;\r\n});"]}
