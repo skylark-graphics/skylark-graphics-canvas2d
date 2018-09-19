@@ -38,7 +38,8 @@ var requireConfig = {
         util.pkg.name + "/main"
     ],
     exclude: [
-        "skylark-langx"
+        "skylark-langx",
+        "skylark-utils"
     ]
 };
 

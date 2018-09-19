@@ -3440,7 +3440,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
      * @namespace
      */
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         clone = fabric.util.object.clone,
         toFixed = fabric.util.toFixed,
@@ -4567,7 +4567,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     /* Adaptation of work of Kevin Lindsey (kevin@kevlindev.com) */
 
-    var fabric = global.fabric || (global.fabric = { });
+    //var fabric = global.fabric || (global.fabric = { });
 
     if (fabric.Point) {
       fabric.warn('fabric.Point is already defined');
@@ -4905,7 +4905,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
     'use strict';
 
     /* Adaptation of work of Kevin Lindsey (kevin@kevlindev.com) */
-    var fabric = global.fabric || (global.fabric = { });
+    //var fabric = global.fabric || (global.fabric = { });
 
     if (fabric.Intersection) {
       fabric.warn('fabric.Intersection is already defined');
@@ -5078,7 +5078,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { });
+    //var fabric = global.fabric || (global.fabric = { });
 
     if (fabric.Color) {
       fabric.warn('fabric.Color is already defined.');
@@ -6366,7 +6366,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         toFixed = fabric.util.toFixed;
 
     if (fabric.Shadow) {
@@ -12354,7 +12354,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         clone = fabric.util.object.clone,
         toFixed = fabric.util.toFixed,
@@ -16118,7 +16118,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         clone = fabric.util.object.clone,
         coordProps = { x1: 1, x2: 1, y1: 1, y2: 1 },
@@ -16466,7 +16466,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         pi = Math.PI;
 
     if (fabric.Circle) {
@@ -16684,7 +16684,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { });
+    //var fabric = global.fabric || (global.fabric = { });
 
     if (fabric.Triangle) {
       fabric.warn('fabric.Triangle is already defined');
@@ -16802,7 +16802,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         piBy2   = Math.PI * 2;
 
     if (fabric.Ellipse) {
@@ -16992,7 +16992,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend;
 
     if (fabric.Rect) {
@@ -17206,7 +17206,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         min = fabric.util.array.min,
         max = fabric.util.array.max,
@@ -17456,7 +17456,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend;
 
     if (fabric.Polygon) {
@@ -17550,7 +17550,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         min = fabric.util.array.min,
         max = fabric.util.array.max,
         extend = fabric.util.object.extend,
@@ -18474,7 +18474,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         min = fabric.util.array.min,
         max = fabric.util.array.max;
 
@@ -19034,7 +19034,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { });
+    //var fabric = global.fabric || (global.fabric = { });
 
     if (fabric.ActiveSelection) {
       return;
@@ -19196,11 +19196,12 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     var extend = fabric.util.object.extend;
 
-    if (!global.fabric) {
-      global.fabric = { };
-    }
+    //if (!global.fabric) {
+    //  global.fabric = { };
+    //}
 
-    if (global.fabric.Image) {
+    //if (global.fabric.Image) {
+    if (fabric.Image) {
       fabric.warn('fabric.Image is already defined.');
       return;
     }
@@ -20869,7 +20870,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -21028,7 +21029,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -21143,7 +21144,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
@@ -21497,7 +21498,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -21653,7 +21654,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -21766,7 +21767,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
@@ -21902,7 +21903,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -22041,7 +22042,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         extend = fabric.util.object.extend,
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
@@ -22216,7 +22217,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -22302,7 +22303,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
   (function(global) {
     'use strict';
 
-    var fabric = global.fabric,
+    var //fabric = global.fabric,
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -22549,7 +22550,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
   (function(global) {
     'use strict';
 
-    var fabric = global.fabric,
+    var //fabric = global.fabric,
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -22798,7 +22799,8 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }), pow = Math.pow, floor = Math.floor,
+    var //fabric  = global.fabric || (global.fabric = { }), 
+        pow = Math.pow, floor = Math.floor,
         sqrt = Math.sqrt, abs = Math.abs, round = Math.round, sin = Math.sin,
         ceil = Math.ceil,
         filters = fabric.Image.filters,
@@ -23290,7 +23292,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -23400,7 +23402,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -23513,7 +23515,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -23730,7 +23732,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -23868,7 +23870,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -23942,7 +23944,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric  = global.fabric || (global.fabric = { }),
+    var //fabric  = global.fabric || (global.fabric = { }),
         filters = fabric.Image.filters,
         createClass = fabric.util.createClass;
 
@@ -24051,7 +24053,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = { }),
+    var //fabric = global.fabric || (global.fabric = { }),
         clone = fabric.util.object.clone;
 
     if (fabric.Text) {
@@ -28380,7 +28382,7 @@ define('skylark-utils-canvas2d/primitives/fabric',[], function() {
 
     'use strict';
 
-    var fabric = global.fabric || (global.fabric = {});
+    //var fabric = global.fabric || (global.fabric = {});
 
     /**
      * Textbox class, based on IText, allows the user to resize the text rectangle

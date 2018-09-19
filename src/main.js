@@ -13,7 +13,8 @@ define([
     "./Polyline",
     "./Rect",
     "./Text",
-    "./Triangle"
+    "./Triangle",
+    "./util"
 ], function(canvas2d) {
     return canvas2d;
 });
