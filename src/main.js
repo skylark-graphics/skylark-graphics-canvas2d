@@ -7,6 +7,7 @@ define([
     "./Group",
     "./Image",
     "./Line",
+    "./Object",
     "./Path",
     "./Point",
     "./Polygon",

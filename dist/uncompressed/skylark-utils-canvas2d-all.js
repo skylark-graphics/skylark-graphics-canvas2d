@@ -29335,6 +29335,16 @@ define('skylark-utils-canvas2d/Line',[
 ], function(canvas2d,fabric) {
     return canvas2d.Line = fabric.Line;
 });
+define('skylark-utils-canvas2d/Object',[
+    "./canvas2d",
+    "./primitives/fabric"
+], function(canvas2d,fabric) {
+	fabric.Object.remove = function() {
+        return this.canvas.remove(this);
+    };
+    
+    return canvas2d.Object = fabric.Object;
+});
 define('skylark-utils-canvas2d/Path',[
     "./canvas2d",
     "./primitives/fabric"
@@ -29392,6 +29402,7 @@ define('skylark-utils-canvas2d/main',[
     "./Group",
     "./Image",
     "./Line",
+    "./Object",
     "./Path",
     "./Point",
     "./Polygon",
