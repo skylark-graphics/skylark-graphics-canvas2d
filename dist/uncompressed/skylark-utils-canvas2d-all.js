@@ -56,7 +56,7 @@
                 args.push(require(dep));
             })
 
-            module.exports = module.factory.apply(window, args);
+            module.exports = module.factory.apply(globals, args);
         }
         return module.exports;
     };
@@ -72,7 +72,7 @@
     var skylarkjs = require("skylark-langx/skylark");
 
     if (isCmd) {
-      exports = skylarkjs;
+      module.exports = skylarkjs;
     } else {
       globals.skylarkjs  = skylarkjs;
     }
@@ -87,12 +87,8 @@ define('skylark-langx/skylark',[], function() {
     return skylark;
 });
 
-define('skylark-utils/skylark',["skylark-langx/skylark"], function(skylark) {
-    return skylark;
-});
-
 define('skylark-utils-canvas2d/canvas2d',[
-    "skylark-utils/skylark"
+    "skylark-langx/skylark"
 ], function(skylark) {
 	return skylark.canvas2d = skylark.canvas2d || {};
 });
