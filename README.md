@@ -1,2 +1,2 @@
-# skylark-utils-canvas2d
-The skylark canvas2d utility library
+# skylark-graphics-canvas2d
+The skylark canvas2d graphic class library
