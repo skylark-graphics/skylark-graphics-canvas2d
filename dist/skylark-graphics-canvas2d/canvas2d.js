@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(a){return a.canvas2d=a.canvas2d||{}});
+define(["skylark-langx/skylark"],function(a){return a.attach("graphics.canvas2d",{})});
 //# sourceMappingURL=sourcemaps/canvas2d.js.map

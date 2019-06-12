@@ -89,7 +89,7 @@
 define('skylark-graphics-canvas2d/canvas2d',[
     "skylark-langx/skylark"
 ], function(skylark) {
-	return skylark.canvas2d = skylark.canvas2d || {};
+	return skylark.attach("graphics.canvas2d", {});
 });
 define('skylark-graphics-canvas2d/primitives/fabric',[], function() { 
   var fabric = fabric || { version: '2.3.6' };
